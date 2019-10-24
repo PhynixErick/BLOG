@@ -1,0 +1,123 @@
+#divp{
+    /* margin: 10%; */
+    margin-top:5%;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color:white;
+    z-index: 20;
+}
+.principal{
+    margin-left: 15em;
+    transition: all .5s;
+    
+}
+
+.inp-text{
+    border: .9px solid #d2d6de;
+    border-radius: 5px;
+    width: 100%;
+    height: 2em;
+}
+.datos{
+    margin-top: 3%;
+}
+legend{
+    background-color: #3c8dbc;
+    color: white;
+    border: solid 1px #3c8dbc;
+    border-radius: .5em;
+    padding: .5%;
+}
+#registro-1{
+    line-height: 2.3em;
+    column-count: 3;
+}
+#registro-2{
+    line-height: 2.3em;
+    column-count: 3;
+    column-gap: 2.2em;
+    column-width:18em; 
+}
+#registro-3{
+    line-height: 2.3em;
+    column-count: 4;
+    column-gap: 2.2em;
+    column-width:10em; 
+}
+.regis-btn{
+    margin-top: 3em;
+    float: left;
+    display: block;
+    width: 8em;
+    height: 2em;
+    background-color: #3c8dbc;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.regis-btn:hover{
+    background-color: #397ca3;
+    transition: all .2s;
+}
+#divp hr{
+    border: 0.1em solid #d2d6de;
+}
+#registro-form{
+    
+    padding-bottom: 4em;
+    background-color: white;
+    /* height: 28em; */
+}
+/* mediaqueries */
+
+@media (max-width: 1040px){
+    #registro-1{
+        line-height: 2.3em;
+        column-count: 1;
+        column-gap: 1em;
+        column-width: 10em; 
+        /* height: 5em; */
+    }
+
+    #registro-2{
+        line-height: 2.3em;
+        column-count: 3;
+        column-gap: 1;
+        column-width:5em; 
+        /* height: 18em; */
+    }
+    #registro-3{
+        line-height: 2.3em;
+        column-count: 2;
+        column-gap: 1em;
+        column-width:5em; 
+        /* height: 18em; */
+    }
+}
+@media(max-width:500px){
+    #registro-1{
+        line-height: 2.3em;
+        column-count: 1;
+        column-gap: 1em;
+        column-width: 10em; 
+        /* height: 5em; */
+    }
+
+    #registro-2{
+        line-height: 2.3em;
+        column-count: 1;
+        column-gap: 1;
+        column-width:5em; 
+        /* height: 18em; */
+    }
+    #registro-3{
+        line-height: 2.3em;
+        column-count: 2;
+        column-gap: 1em;
+        column-width:5em; 
+        /* height: 18em; */
+    }
+}

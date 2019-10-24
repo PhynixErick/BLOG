@@ -1,0 +1,40 @@
+#divp{
+    margin-top:4em;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color:white;
+    z-index: 20;
+}
+.principal{
+    margin-left: 15em;
+    transition: all .5s;
+}
+#divp hr{
+    border: 0.1em solid #d2d6de;
+}
+.div_tab{
+    padding: 1%;
+    background-color: #f7f7f7;
+}
+table th{
+    padding-bottom: 1%;
+    /* border-right: solid 1px #d2d6de; */
+    align-items: center;
+    text-align: center;
+    width: 11%;
+}
+table td{
+    text-align: center;
+    font-size: 14.5px;
+    color: rgba(24, 24, 24, 0.801);
+}
+table tr:hover>td{
+    background-color: #3c8dbc;
+}
+
+
+
+
+
